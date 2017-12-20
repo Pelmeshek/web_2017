@@ -1,0 +1,89 @@
+.document{
+  background: #d3d3d3;
+}
+html{
+  background: #d3d3d3;
+}
+
+/*main{
+  background: rgb(241, 234, 245);
+}*/
+article {
+  /*margin-left: auto;*/
+}
+
+header {
+  margin-left: auto;
+
+  background: url(http://www.anawalls.com/images/textures/wooden-background-light-texture.jpg);
+  text-align: center;
+  border: 4px double black;
+  /*font-size: 30pt;*/
+  font-weight: bold;
+  border-radius: 20px;
+
+  margin : 20px 40px;
+}
+
+header > .image {
+  margin-left: 10%;
+  text-align: left;
+}
+
+header > .image > img {
+  position: relative;
+  display: inline-block;
+  width: 10%;
+}
+
+.navigation {
+    background: url(https://hsto.org/storage/habraeffect/4a/50/4a501c449d237bda42815394a34c0bfc.jpg);
+  border-radius: 10px;
+  margin-right: 20%;
+  border: 2px double black;
+  /*width: auto;*/
+  /*vertical-align: top;*/
+  position: absolute;
+  /*top: 15%;*/
+}
+
+.name {
+  width: 20%;
+  vertical-align: top;
+  position: fixed;
+  top: 15%;
+}
+
+.article {
+  /*width: 70%;*/
+  margin-left: 21%;
+  background: url(https://hsto.org/storage/habraeffect/4a/50/4a501c449d237bda42815394a34c0bfc.jpg);
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  /*margin: 10px;*/
+}
+/*
+.image > .article > .header > .title {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.image > .article > .header > .subtitle {
+  font-size: 10pt;
+}
+
+.image > .article > .header > .subtitle > .date {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.image > .article > .header > .subtitle > .link {
+  position: relative;
+  display: inline-block;
+}
+
+.image > .article > .header > .title:hover {
+  color: red;
+}*/
