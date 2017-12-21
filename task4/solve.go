@@ -1,6 +1,5 @@
 package main
 import "strings"
-
 func RemoveEven(input []int) (result []int) {
   i := 0
   result = make([]int, 0)
@@ -12,14 +11,12 @@ func RemoveEven(input []int) (result []int) {
   }
   return
 }
-
 func PowerGenerator(a int) (result int) {
   deg := 1;
   deg = deg * a
   result = deg
   return
 }
-
 func Prin(x rune) bool {
   if x >= 'a' && x <= 'z' {
     return false
@@ -27,7 +24,6 @@ func Prin(x rune) bool {
     return true
   }
 }
-
 func DifferentWordsCount(c string) (counter int) {
   dif := strings.ToLower(c)
   text:= strings.FieldsFunc(dif, Prin)
