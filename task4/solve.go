@@ -1,5 +1,13 @@
 package main
 import "strings"
+func PowerGenerator(a int) (func() int) {
+  deg := 1;
+return func()(result int){
+  deg = deg * a
+  result = deg
+  return
+}
+}
 func RemoveEven(input []int) (result []int) {
   i := 0
   result = make([]int, 0)
@@ -9,12 +17,6 @@ func RemoveEven(input []int) (result []int) {
     }
     i++
   }
-  return
-}
-func PowerGenerator(a int) (result int) {
-  deg := 1;
-  deg = deg * a
-  result = deg
   return
 }
 func Prin(x rune) bool {
