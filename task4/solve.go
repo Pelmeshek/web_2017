@@ -5,7 +5,7 @@ func RemoveEven(input []int) (result []int) {
   i := 0
   result = make([]int, 0)
   for i < len(input) {
-    if b[i] % 2==1 {
+    if input[i] % 2==1 {
       result = append(result, input[i])
     }
     i++
@@ -13,7 +13,7 @@ func RemoveEven(input []int) (result []int) {
   return
 }
 
-func PowerGenerator(a int) (func() int) {
+func PowerGenerator(a int) (result int) {
   deg := 1;
   deg = deg * a
   result = deg
@@ -33,7 +33,7 @@ func DifferentWordsCount(c string) (counter int) {
   text:= strings.FieldsFunc(dif, Prin)
   counter = 0;
   i:= 0;
-  for i < len(d) {
+  for i < len(text) {
     if text[i] != "1" {
       counter++
       j:=i+1
